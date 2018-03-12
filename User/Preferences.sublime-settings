@@ -1,6 +1,15 @@
-// Settings in here override those in "Default/Preferences.sublime-settings",
-// and are overridden in turn by syntax-specific settings.
 {
-	 "font_size": 14,
-	 "tab_size": 2,
+	"auto_complete_commit_on_tab": false,
+	"color_scheme": "Packages/Color Scheme - Legacy/Sunburst.tmTheme",
+	"draw_minimap_border": true,
+	"font_face": "Envy Code R",
+	"font_size": 14,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"tab_completion": false,
+	"tab_size": 2
 }

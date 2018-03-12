@@ -1,7 +1,17 @@
 {
 	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
 	"installed_packages":
 	[
-		"Package Control"
+		"ColorSchemeSelector",
+		"FindKeyConflicts",
+		"Git",
+		"Keymaps",
+		"Origami",
+		"Package Control",
+		"Select Quoted",
+		"Terminal"
 	]
 }
