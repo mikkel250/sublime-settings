@@ -6,12 +6,16 @@
 	"installed_packages":
 	[
 		"ColorSchemeSelector",
+		"CSS3",
+		"Emmet",
 		"FindKeyConflicts",
 		"Git",
 		"Keymaps",
+		"LiveReload",
 		"Origami",
 		"Package Control",
 		"Select Quoted",
+		"SublimeLinter",
 		"Terminal"
 	]
 }

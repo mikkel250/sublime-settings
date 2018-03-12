@@ -1,5 +1,19 @@
 [
-	{ "keys": ["super+shift+r"],  "command": "reindent" }
+	{ "keys": ["super+shift+r"],  "command": "reindent" },
+	{
+        "keys": [
+            "ctrl+e"
+        ], 
+        "args": {
+            "action": "encode_decode_data_url"
+        }, 
+        "command": "run_emmet_action", 
+        "context": [
+            {
+                "key": "emmet_action_enabled.encode_decode_data_url"
+            }
+        ]
+    }, 
 
 	
 ]
