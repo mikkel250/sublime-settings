@@ -1,19 +1,12 @@
 [
 	{ "keys": ["super+shift+r"],  "command": "reindent" },
-	{
-        "keys": [
-            "ctrl+e"
-        ], 
-        "args": {
-            "action": "encode_decode_data_url"
-        }, 
-        "command": "run_emmet_action", 
-        "context": [
-            {
-                "key": "emmet_action_enabled.encode_decode_data_url"
-            }
-        ]
-    }, 
+	{ "keys": ["ctrl+alt+e"], "command": "slurp_find_string" },
+    {"keys": ["ctrl+e"], "args": {"action": "encode_decode_data_url"}, "command": "run_emmet_action", "context": [{"key": "emmet_action_enabled.encode_decode_data_url"}]}, 
+    { "keys": ["ctrl+super+u"], "command": "soft_undo" },
+    { "keys": ["ctrl+shift+super+u"], "command": "soft_redo" },
+	{ "keys": ["alt+ctrl+up"], "command": "select_lines", "args": {"forward": false} },
+    { "keys": ["alt+ctrl+down"], "command": "select_lines", "args": {"forward": true} },
+    { "keys": ["ctrl+alt+shift+r"], "command": "goto_symbol_in_project" },
+    { "keys": ["alt+shift+keypad_minus"], "command": "jump_forward" }
 
-	
 ]
